@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'poppins-bold';
+}
+p, ul, li {
+    font-family: 'roboto';
+}
