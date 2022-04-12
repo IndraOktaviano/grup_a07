@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.hero .items .item-left h1 {
+    font-size: 6vh;
+}
+
 .hero .items .item-left .btn {
     border: 2px solid #353b48;
     border-radius: 10px;
@@ -33,7 +37,7 @@
 
 .hero .items .item-left .btn:hover {
     transition: 0.4s;
-    background: #f5f6fa;
+    background: none;
     color: #353b48;
 }
 
@@ -98,7 +102,7 @@
         height: 95vh;
         padding: 20px 10px;
     }
-    
+
     .hero .items {
         display: block;
         text-align: center;
