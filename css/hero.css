@@ -1,0 +1,127 @@
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.397), rgba(255, 255, 255, 0.397)), url('../images/4853433.jpg') no-repeat center;
+    background-size: cover;
+    color: #353b48;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .items {
+    display: flex;
+    align-items: center;
+}
+
+.hero .items .item-left,
+.hero .items .item-right {
+    width: 50%;
+    align-items: center;
+    position: relative;
+}
+
+.hero .items .item-left .btn {
+    border: 2px solid #353b48;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: #353b48;
+    color: #f5f6fa;
+}
+
+.hero .items .item-left .btn:hover {
+    transition: 0.4s;
+    background: #f5f6fa;
+    color: #353b48;
+}
+
+.hero .items .item-right {
+    text-align: end;
+}
+
+.hero .items .item-right img {
+    width: 85%;
+}
+
+.hero .items .item-left {
+    animation: fromleft 2s;
+}
+
+.hero .items .item-right {
+    animation: fromright 2s;
+}
+
+@keyframes fromleft {
+    from {
+        left: -30%;
+        opacity: 10%;
+    }
+
+    to {
+        left: 0;
+        opacity: 100%;
+    }
+}
+
+@keyframes fromright {
+    from {
+        right: -30%;
+        opacity: 10%;
+    }
+
+    to {
+        right: 0;
+        opacity: 100%;
+    }
+}
+
+/* device tab */
+@media (max-width: 1007px) {
+    .hero {
+        height: 25vh;
+    }
+
+    .hero .items .item-left h1 {
+        font-size: 24px;
+    }
+
+    .hero .items .item-right img {
+        width: 100%;
+    }
+}
+
+/* device phone */
+@media (max-width: 640px) {
+    .hero {
+        height: 95vh;
+        padding: 20px 10px;
+    }
+    
+    .hero .items {
+        display: block;
+        text-align: center;
+    }
+
+    .hero .items .item-left,
+    .hero .items .item-right {
+        width: 100%;
+    }
+
+    .hero .items .item-left {
+        margin-bottom: 30px;
+    }
+
+    .hero .items .item-left .btn {
+        padding: 10px 41px;
+    }
+
+    .hero .items .item-right {
+        text-align: center;
+    }
+
+    .hero .items .item-right img {
+        width: 100%;
+    }
+}
