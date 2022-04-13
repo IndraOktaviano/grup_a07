@@ -1,0 +1,106 @@
+.paket {
+    height: 90vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.397), rgba(255, 255, 255, 0.397)), url('../images/4853433.jpg') no-repeat center;
+    background-size: cover;
+    background-size: cover;
+    color: #353b48;
+    padding: 20px;
+    display: block;
+}
+
+.paket .paket-list{
+    width: 100%;    
+    margin-top: 20px;
+}
+
+.paket h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.paket h3{
+    font-size: 15;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paket .paket-list .paket-details{
+    height: 620px;
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: auto;
+    border-radius: 40px;
+   
+}
+
+.satu{
+    background-color: rgb(53, 59, 72, 0.2);
+}
+
+.dua{
+    background-color: rgb(234, 242, 244);
+}
+
+.tiga{
+    background-color: rgb(222, 211, 212, 0.3);
+}
+
+.paket .paket-list .paket-details .paket-1 img{
+    width: 200px;
+    height: 150px;
+}
+
+.paket .paket-list .paket-details .paket-1 p{
+   font-size: 20;
+}
+
+.paket .paket-list .paket-details .paket-1 h1{
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.paket .paket-list .paket-details .paket-1 .paketgamer{
+    border: 2px solid #353b48;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: #353b48;
+    color: #f5f6fa;
+    margin-top:10px;
+}
+
+.paket .paket-list .paket-details .paket-1 .paketgamer:hover{
+    transition: 0.4s;
+    background: none;
+    color: #353b48;
+}
+
+.harga{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}
+
+.hargadiskon{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;  
+}
+
+.kecepatan{
+    font-size: 40px;
+}
+
+.hanya{
+    font-style: italic;
+}
