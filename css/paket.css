@@ -12,6 +12,7 @@
     width: 100%;    
     margin-top: 20px;
     animation: fromleft 3s;
+    display: flex;
 }
 
 .paket h1{
@@ -34,7 +35,7 @@
 
 .paket .paket-list .paket-details{
     height: auto;
-    max-width:30%;
+    width:30%;
     float: left;
     text-align: center;
     margin-right: 10px;
@@ -45,17 +46,32 @@
 
 .satu{
     background-color: rgb(53, 59, 72, 0.2);
-    animation: fromleft 3s;
+    animation: fromkiri 3s;
+    position: relative;
 }
 
 .dua{
     background-color: rgb(234, 242, 244);
-    animation: fromleft 6s;
+    animation: fromkiri 2s;
+    position: relative;
 }
 
 .tiga{
     background-color: rgb(222, 211, 212, 0.3);
-    animation: fromleft 9s;
+    animation: fromkiri 1s;
+    position: relative;
+}
+
+@keyframes fromkiri {
+    from {
+        left: -30%;
+        opacity: 10%;
+    }
+
+    to {
+        left: 0;
+        opacity: 100%;
+    }
 }
 
 .paket .paket-list .paket-details .paket-1 img{
@@ -64,12 +80,22 @@
 }
 
 .paket .paket-list .paket-details .paket-1 p{
-   font-size: 2vw;
+   font-size: 15px;
+}
+
+@media (max-width:640px) {
+    .paket .paket-list .paket-details .paket-1 p{
+        font-size: 10px;
+     }
+     
+    .paket .paket-list .paket-details .paket-1 h2{
+        font-size: 15px !important;
+    }
 }
 
 .paket .paket-list .paket-details .paket-1 h2{
     padding-top: 10px;
-    font-size: 5vw;
+    font-size: 30px;
     margin: 0;
 }
 
