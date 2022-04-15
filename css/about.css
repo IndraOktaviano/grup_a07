@@ -1,0 +1,37 @@
+.about {
+    color: #353b48;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about .container {
+    width: 60%;
+    text-align: center;
+}
+
+.about .container .keunggulan {
+    display: flex;
+    justify-content: center;
+}
+
+.about .container .keunggulan p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.about .container .keunggulan svg {
+    height: 18px;
+}
+
+@media (max-width: 640px) {
+    .about .container {
+        width: 100%;
+    }
+    .about .container h2 {
+        font-size: 15px;
+    }
+}
