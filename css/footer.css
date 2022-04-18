@@ -52,6 +52,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-items .footer-center li a:hover {
+    color: hsl(209, 42%, 49%);
+}
+
 .footer-items .footer-right {
     width: 20%;
     display: flex;
@@ -70,6 +74,10 @@ footer {
     letter-spacing: 1.5px;
     text-align: center;
     text-decoration: none;
+}
+
+.footer-items .footer-right li a:hover {
+    color: hsl(209, 42%, 49%);
 }
 
 .copyright {
